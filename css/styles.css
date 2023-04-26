@@ -410,7 +410,7 @@ body {
   height: 88px;
   border: 1px solid var(--icon-color);
   border-radius: 4px;
-  fill: var(--icon-color);
+  color: var(--icon-color);
 }
 
 .customers-list-icon {
@@ -421,7 +421,7 @@ body {
 
 .customers-list-link:hover,
 .customers-list-link:focus {
-  fill: #404bbf;
+  color: #404bbf;
   border-color: #404bbf;
 }
 
