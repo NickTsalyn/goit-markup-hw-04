@@ -8,6 +8,7 @@
   --primary-button-color: #4d5ae5;
   --primary-button-background-color: #f4f4fd;
   --icon-color: #8e8f99;
+  --color: currentColor;
 }
 
 h1,
@@ -412,11 +413,6 @@ body {
   color: var(--icon-color);
 }
 
-.customers-list-icon {
-  width: 40px;
-  height: 48px;
-  fill: currentColor;
-}
 
 .customers-list-link:hover,
 .customers-list-link:focus {
@@ -424,11 +420,10 @@ body {
   border-color: #404bbf;
 }
 
-.cutomers-list-icon:hover,
-.cutomers-list-icon:focus {
-  color: #404bbf;
-  border-color: #404bbf;
+.customers-list-icon{
+  fill: currentColor;
 }
+
 
 /**
   |============================
